@@ -1,0 +1,57 @@
+@config '../tailwind.config.js';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: LexendExaHM;
+		src: url('../assets/fonts/LexendExaHM-Bold.woff2') format('woff2')
+	}
+
+	@font-face {
+		font-family: Inter;
+		src: url('../assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('ttf');
+	}
+
+	h1 {
+		font-family: LexendExaHM;
+		@apply text-3xl leading-extra-loose font-bold;
+	}
+
+	h1-dashboard {
+		font-family: Inter;
+		@apply text-3xl leading-extra-loose font-light;
+	}
+	h2 {
+		font-family: Inter;
+		@apply text-2xl leading-loose font-semibold;
+	}
+
+	h3 {
+		font-family: Inter;
+		@apply text-xl leading-loose font-semibold;
+	}
+
+	h4 {
+		font-family: Inter;
+		@apply text-lg leading-loose font-semibold;
+	}
+
+	h5 {
+		font-family: Inter;
+		@apply text-base leading-long font-semibold;
+	}
+
+	body {
+		font-family: Inter;
+		@apply text-base leading-normal font-normal;
+	}
+
+	label {
+		font-family: Inter;
+		@apply text-xs leading-none font-normal;
+	}
+
+
+}
