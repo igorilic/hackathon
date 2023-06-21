@@ -5,16 +5,16 @@
   "scripts": {},
   "private": true,
   "devDependencies": {
-    "@nrwl/cypress": "^16.2.2",
-    "@nrwl/react": "^16.2.2",
-    "@nrwl/storybook": "^16.2.2",
-    "@nx/eslint-plugin": "16.2.2",
-    "@nx/js": "16.2.2",
-    "@nx/linter": "16.2.2",
-    "@nx/react": "16.2.2",
-    "@nx/storybook": "16.2.2",
-    "@nx/vite": "16.2.2",
-    "@nx/web": "16.2.2",
+    "@nrwl/cypress": "16.3.2",
+    "@nrwl/react": "16.3.2",
+    "@nrwl/storybook": "16.3.2",
+    "@nx/eslint-plugin": "16.3.2",
+    "@nx/js": "16.3.2",
+    "@nx/linter": "16.3.2",
+    "@nx/react": "16.3.2",
+    "@nx/storybook": "16.3.2",
+    "@nx/vite": "16.3.2",
+    "@nx/web": "16.3.2",
     "@storybook/addon-docs": "^7.0.17",
     "@storybook/addon-essentials": "^7.0.9",
     "@storybook/builder-vite": "^7.0.17",
@@ -41,7 +41,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "hex-rgb": "^4.3.0",
     "jsdom": "~20.0.3",
-    "nx": "16.2.2",
+    "nx": "16.3.2",
     "postcss": "^8.4.23",
     "prettier": "^2.6.2",
     "remark-gfm": "^3.0.1",
@@ -65,3 +65,4 @@
     "react-dom": "18.2.0"
   }
 }
+
